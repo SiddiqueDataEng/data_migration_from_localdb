@@ -1,8 +1,8 @@
-# Freeway ERP — ETL Migration Pipeline
+# MY ERP — ETL Migration Pipeline
 
 ## `migrate_to_remote.py`
 
-A production-grade, resilient ETL pipeline that migrates the full Freeway ERP
+A production-grade, resilient ETL pipeline that migrates the full MY ERP
 dataset (~4.8 million rows, 98 tables) from a local MySQL database to a remote
 MySQL server. Designed for WAN conditions, unstable connections, and long-running
 bulk transfers.
@@ -62,7 +62,7 @@ bulk transfers.
 │                    REMOTE MYSQL (TARGET)                             │
 │   host: -------                                          │
 │   db:   -------                                         │
-│   schema: 112 tables (full Freeway ERP schema)                       │
+│   schema: 112 tables (full MY ERP schema)                       │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -594,7 +594,7 @@ for t, v in state.items():
 ### Sample `migration_report.txt`
 
 ```
-Freeway ERP Migration COMPLETE — 2026-06-12 22:15:03
+MY ERP Migration COMPLETE — 2026-06-12 22:15:03
 Mode: auto  |  Remote: ********/********
 Total rows: 4,865,925  |  Tables: 98  |  Time: 22845s
 
