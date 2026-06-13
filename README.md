@@ -27,6 +27,7 @@ bulk transfers.
 14. [Output Files](#output-files)
 15. [Troubleshooting](#troubleshooting)
 16. [Data Volumes](#data-volumes)
+17. [VERSIONS](VERSIONS_COMPARISON.md)
 
 ---
 
